@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RandomBarcodeGenerator/static/css/main.f6ea762b.chunk.css",
-    "main.js": "/RandomBarcodeGenerator/static/js/main.16f8e2cc.chunk.js",
-    "main.js.map": "/RandomBarcodeGenerator/static/js/main.16f8e2cc.chunk.js.map",
+    "main.js": "/RandomBarcodeGenerator/static/js/main.b07b21b1.chunk.js",
+    "main.js.map": "/RandomBarcodeGenerator/static/js/main.b07b21b1.chunk.js.map",
     "runtime-main.js": "/RandomBarcodeGenerator/static/js/runtime-main.57490458.js",
     "runtime-main.js.map": "/RandomBarcodeGenerator/static/js/runtime-main.57490458.js.map",
     "static/js/2.abb4cdfc.chunk.js": "/RandomBarcodeGenerator/static/js/2.abb4cdfc.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.57490458.js",
     "static/js/2.abb4cdfc.chunk.js",
     "static/css/main.f6ea762b.chunk.css",
-    "static/js/main.16f8e2cc.chunk.js"
+    "static/js/main.b07b21b1.chunk.js"
   ]
 }
