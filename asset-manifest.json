@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RandomBarcodeGenerator/static/css/main.f6ea762b.chunk.css",
-    "main.js": "/RandomBarcodeGenerator/static/js/main.b07b21b1.chunk.js",
-    "main.js.map": "/RandomBarcodeGenerator/static/js/main.b07b21b1.chunk.js.map",
+    "main.css": "/RandomBarcodeGenerator/static/css/main.ee6951c1.chunk.css",
+    "main.js": "/RandomBarcodeGenerator/static/js/main.325249b5.chunk.js",
+    "main.js.map": "/RandomBarcodeGenerator/static/js/main.325249b5.chunk.js.map",
     "runtime-main.js": "/RandomBarcodeGenerator/static/js/runtime-main.57490458.js",
     "runtime-main.js.map": "/RandomBarcodeGenerator/static/js/runtime-main.57490458.js.map",
-    "static/js/2.abb4cdfc.chunk.js": "/RandomBarcodeGenerator/static/js/2.abb4cdfc.chunk.js",
-    "static/js/2.abb4cdfc.chunk.js.map": "/RandomBarcodeGenerator/static/js/2.abb4cdfc.chunk.js.map",
+    "static/js/2.3724c3a3.chunk.js": "/RandomBarcodeGenerator/static/js/2.3724c3a3.chunk.js",
+    "static/js/2.3724c3a3.chunk.js.map": "/RandomBarcodeGenerator/static/js/2.3724c3a3.chunk.js.map",
     "index.html": "/RandomBarcodeGenerator/index.html",
-    "static/css/main.f6ea762b.chunk.css.map": "/RandomBarcodeGenerator/static/css/main.f6ea762b.chunk.css.map",
-    "static/js/2.abb4cdfc.chunk.js.LICENSE.txt": "/RandomBarcodeGenerator/static/js/2.abb4cdfc.chunk.js.LICENSE.txt"
+    "static/css/main.ee6951c1.chunk.css.map": "/RandomBarcodeGenerator/static/css/main.ee6951c1.chunk.css.map",
+    "static/js/2.3724c3a3.chunk.js.LICENSE.txt": "/RandomBarcodeGenerator/static/js/2.3724c3a3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.57490458.js",
-    "static/js/2.abb4cdfc.chunk.js",
-    "static/css/main.f6ea762b.chunk.css",
-    "static/js/main.b07b21b1.chunk.js"
+    "static/js/2.3724c3a3.chunk.js",
+    "static/css/main.ee6951c1.chunk.css",
+    "static/js/main.325249b5.chunk.js"
   ]
 }
