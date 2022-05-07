@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react';
 import { AppBar, Button, TextField, Toolbar, Typography } from '@material-ui/core';
 import { GoogleLogin } from 'react-google-login';
 import { GoogleLogout } from 'react-google-login';
-import { generateRandomCode } from "./Generator"
-import { Storage } from './Storage'
-import { padCode, range } from './Util'
-import Barcode from './Barcode'
-import './App.scss';
+import { generateRandomCode } from '../generator';
+import { Storage } from '../storage';
+import { padCode, range } from '../util';
+import Barcode from '../barcode';
+import styles from './index.module.scss';
 
 const CLIENT_ID = "843901847350-30igg13jkqtha7fnb3eh7seatf09n93t.apps.googleusercontent.com"
 const SCOPES = "https://www.googleapis.com/auth/drive.file";
@@ -86,7 +86,7 @@ function App() {
       </Toolbar>
     </AppBar>
     <main>
-      <div className="config">
+      <div className={styles.config}>
         <TextField label="Header" type="text" value={header} onChange={e => setHeader(e.target.value)} fullWidth />
         <TextField label="Quantity" type="number" inputProps={{ maxLength: 3 }} value={quantity} onChange={e => setQuantity(parseInt(e.target.value))} fullWidth />
         <Button variant="contained" color="primary" onClick={generateNewCodes} fullWidth>Generate Barcodes</Button>
@@ -98,9 +98,9 @@ function App() {
         }
         <Typography>{message}</Typography>
       </div>
-      <ul className="barcode-list">
+      <ul className={styles.barcode_list}>
         {codes.map(code =>
-          <li key={code} className="barcode-list-item">
+          <li key={code} className={styles.barcode_list_item}>
             <Barcode key={code} name={header} value={padCode(code)} />
           </li>)}
       </ul>

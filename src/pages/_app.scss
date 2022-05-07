@@ -1,4 +1,10 @@
-#root {
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#__next {
   text-align: center;
   min-height: 100vh;
   display: flex;
@@ -34,30 +40,6 @@ footer {
 
 .toolbar {
   justify-content: space-between;
-}
-
-.config {
-  @include noprint;
-  max-width: 450px;
-  margin: 10px auto;
-  > * {
-    margin: 5px !important;
-  }
-}
-
-.barcode-list {
-  list-style-type: none;
-  max-width: 900px;
-  margin: auto;
-  padding: 0;
-}
-
-.barcode-list-item {
-  display: inline-block;
-  border: 1px dashed rgb(212, 212, 212);
-  padding: 0;
-  margin: 0;
-  font-weight: bold;
 }
 
 .google-login-button {

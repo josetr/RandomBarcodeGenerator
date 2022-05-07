@@ -1,4 +1,4 @@
-import { padCode } from "./Util";
+import { padCode } from "./util";
 
 const ep = "https://www.googleapis.com/upload/drive/v3"
 const fileName = "random-unique-codes.txt"
