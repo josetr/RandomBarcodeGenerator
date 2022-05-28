@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { AppBar, Button, TextField, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Button, TextField, Toolbar, Typography } from '@mui/material';
 import { GoogleLogin } from 'react-google-login';
 import { GoogleLogout } from 'react-google-login';
 import { generateRandomCode } from '../generator';
@@ -87,8 +87,8 @@ function App() {
     </AppBar>
     <main>
       <div className={styles.config}>
-        <TextField label="Header" type="text" value={header} onChange={e => setHeader(e.target.value)} fullWidth />
-        <TextField label="Quantity" type="number" inputProps={{ maxLength: 3 }} value={quantity} onChange={e => setQuantity(parseInt(e.target.value))} fullWidth />
+        <TextField label="Header" type="text" value={header} onChange={e => setHeader(e.target.value)} fullWidth size="small" />
+        <TextField label="Quantity" type="number" inputProps={{ maxLength: 3 }} value={quantity} onChange={e => setQuantity(parseInt(e.target.value))} fullWidth size="small" />
         <Button variant="contained" color="primary" onClick={generateNewCodes} fullWidth>Generate Barcodes</Button>
         {codes[0] > 0 &&
           <Button variant="outlined" color="primary" onClick={print} fullWidth>{canPrint && "Save & "}Print</Button>

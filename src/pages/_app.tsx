@@ -2,7 +2,7 @@ import './_app.scss'
 import Head from 'next/head';
 import { AppProps } from 'next/app';
 import React from 'react';
-import { createTheme, ThemeProvider } from '@material-ui/core';
+import { createTheme, ThemeProvider } from '@mui/material';
 
 function App({ Component, pageProps }: AppProps) {
   return (
